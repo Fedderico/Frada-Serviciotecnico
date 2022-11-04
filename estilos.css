@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Barcode 39 Text';
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navBarLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(250, 67, 67);
+    background: rgb(250, 67, 67);
+    background: linear-gradient(228deg, rgba(250, 67, 67, 1) 15%, rgba(255, 255, 255, 0.9668242296918768) 50%, rgba(0, 166, 3, 1) 85%);
+    height: 200px;
+    opacity: .7;
+}
+
+
+
+.NavBarTitulo {
+    height: 30px;
+    text-shadow: 20px black solid;
+
+
+}
+
+.navBarSub {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.nav-link{
+    color:black
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 100%;
+}
+
+#contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background: rgb(250, 67, 67);
+    background: rgb(250, 67, 67);
+    background: linear-gradient(228deg, rgba(250, 67, 67, 1) 15%, rgba(255, 255, 255, 0.9668242296918768) 50%, rgba(0, 166, 3, 1) 85%);
+    opacity: .6;
+
+}
+
+
+#section {
+    margin-top: 50px;
+
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.name {
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+
+.address {
+    margin-bottom: 10px;
+}
+
+.email {
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+
+.mesaje {
+    margin-left: 7px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form {
+    align-items: center;
+    justify-content: center;
+}
+ #about{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-self:center ;
+ }
+
+ .about{
+    justify-content: center;
+    align-items: center;
+ }
+
+ .tips{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .li{
+    border-radius: 150px;
+ }
+
+ .productos{
+    margin-top: 50px;
+    margin-bottom: 30px;
+ }
+.npc{
+    color: black;
+    text-decoration: none;
+ }
+
+.footer{
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+}
+
+
+/* animaciones */
+.NavBarTitulo {
+    background-size: cover;
+    animation: focus-in-expand .8s cubic-bezier(.25, .46, .45, .94) both
+}
+
+
+
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1
+    }
+}
